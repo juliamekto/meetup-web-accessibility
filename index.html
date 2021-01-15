@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Доступность приложений</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css" />
+    <style>
+      .shower {
+        --slide-ratio: calc(16 / 9);
+      }
+      .large {
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body class="shower list">
+    <header class="caption">
+      <h1>Доступность</h1>
+      <p>все проще,чем кажется</p>
+    </header>
+
+    <section class="slide" id="cover">
+      <h2>
+        Доступность приложений: <br />
+        кому , зачем ?
+      </h2>
+      <figure>
+        <img class="cover" src="pictures/cover.jpg" alt="Web accessability" />
+        <figcaption class="copyright right white">
+          все проще,чем кажется
+        </figcaption>
+      </figure>
+      <style>
+        #cover h2 {
+          margin: 300px 0 0;
+          color: white;
+          text-align: center;
+          font-size: 70px;
+          background: #f9643c;
+          padding: 10px 0;
+        }
+
+        #cover p {
+          margin: 10px 0 0;
+          text-align: center;
+          color: white;
+          font-style: italic;
+          font-size: 20px;
+        }
+
+        #cover p a {
+          color: white;
+        }
+      </style>
+    </section>
+
+    <section class="slide">
+      <figure>
+        <img class="cover" src="pictures/a11.jpg" alt="a11" />
+      </figure>
+    </section>
+
+    <section class="slide" id="statistics">
+      <h2>Факты ( статистика ВОЗ 2018г. )</h2>
+      <div class="content">
+        <span class="place next left active" style="padding-left: 20px">
+          7.8 миллиарда
+        </span>
+        <span class="place next">
+          1+ миллиарда <br />
+          имеют нарушение зрения
+        </span>
+        <img class="place next right" src="pictures/chart.jpg" alt="chart" />
+      </div>
+
+      <style>
+        #statistics img {
+          width: 320px;
+        }
+      </style>
+    </section>
+
+    <section class="slide" id="examples">
+      <div>
+        <img src="pictures/ex1.jpg" alt="пример 1" />
+        <img src="pictures/ex2.jpg" alt="пример 2" />
+      </div>
+      <style>
+        #examples div {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          justify-content: space-around;
+        }
+        #examples img {
+          width: 45%;
+        }
+      </style>
+    </section>
+
+    <section class="slide" id="examples">
+      <div>
+        <img src="pictures/ex.jpg" alt="пример 3" />
+        <img src="pictures/ex3.jpg" alt="пример 4" />
+      </div>
+      <style>
+        #examples div {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          justify-content: space-around;
+        }
+        #examples img {
+          width: 45%;
+        }
+      </style>
+    </section>
+
+    <section class="slide">
+      <figure>
+        <img class="cover" src="pictures/a112.jpg" alt="a11" />
+      </figure>
+    </section>
+
+    <section class="slide">
+      <figure>
+        <img class="cover" src="pictures/wcag.png" alt="wgac logo" />
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>Accessibility(a11y) / WCAG</h2>
+      <figure>
+        <img src="pictures/levels.png" alt="wgac levels" />
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout shrink">Зачем?</h2>
+    </section>
+
+    <section class="slide" id="reasons">
+      <div class="content">
+        <span class="place next left" style="padding-left: 20px">
+          Думаем о других
+        </span>
+
+        <span class="place next right" style="padding-right: 60px">
+          Ведем бизнес
+        </span>
+
+        <span class="next and"> && </span>
+
+        <span class="next or"> || </span>
+      </div>
+      <style>
+        #reasons {
+          position: relative;
+        }
+        #reasons span {
+          font-size: 60px;
+          text-align: center;
+        }
+        #reasons .and {
+          position: absolute;
+          top: 41%;
+          left: 48%;
+          font-size: 60px;
+          color: red;
+        }
+
+        #reasons .or {
+          position: absolute;
+          top: 34%;
+          left: 47%;
+          font-size: 60px;
+          color: red;
+          background: white;
+          padding: 40px;
+        }
+      </style>
+    </section>
+
+    <section class="slide math">
+      <div class="math-row math-row1">
+        <img class="next active" src="pictures/angry.webp" alt="angry icon" />
+        <img class="next" src="pictures/solution.png" alt="solution icon" />
+        <img class="next" src="pictures/happy.png" alt="happy icon" />
+      </div>
+      <div class="math-line"></div>
+      <div class="math-row math-row2">
+        <img class="next" src="pictures/angry.webp" alt="angry icon" />
+        <img class="next" src="pictures/solution.png" alt="solution icon" />
+        <img class="next" src="pictures/happy.png" alt="happy icon" />
+        <img class="next" src="pictures/money.png" alt="money icon" />
+      </div>
+
+      <div class="cross1 next"></div>
+      <div class="cross2 next"></div>
+      <style>
+        .math-row {
+          display: flex;
+          align-items: center;
+        }
+        .math-line {
+          width: 100%;
+          background-color: black;
+          height: 8px;
+          margin: 20px;
+        }
+        .math-row img {
+          width: 150px;
+          margin: 0 20px;
+        }
+
+        .cross1 {
+          width: 50%;
+          background-color: black;
+          height: 8px;
+          margin: 20px;
+          position: absolute;
+          top: 113px;
+          transform: rotate(10deg);
+        }
+
+        .cross2 {
+          width: 50%;
+          background-color: black;
+          height: 8px;
+          margin: 20px;
+          position: absolute;
+          top: 339px;
+          transform: rotate(10deg);
+        }
+      </style>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout shrink">Что можно сделать?</h2>
+    </section>
+
+    <section class="slide" id="picture">
+      <figure>
+        <img
+          class="cover next"
+          src="pictures/try-not-to-cry.jpg"
+          alt="Orange typewriter on a wooden table close-up"
+        />
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout shrink uppercase accent-color">Верстка</h2>
+      <h3 class="next accent-color">+ Тестирование доступности</h3>
+    </section>
+
+    <section class="slide">
+      <img class="cover" src="pictures/nb.gif" alt="not bad gif" />
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase"><span class="accent-color">Все просто</span></h2>
+      <ol>
+        <li class="next">Валидность</li>
+        <li class="next">Семантика</li>
+        <li class="next">Последовательность кода страницы</li>
+        <li class="next">Адаптивность (шрифт, масштаб)</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase"><span class="accent-color">Валидность</span></h2>
+      <ol>
+        <li>Валидатор W3C</li>
+        <li>Linters ( ESLint и т.п)</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase"><span class="accent-color">Валидность</span></h2>
+      <ol>
+        <li>Валидатор W3C</li>
+        <li>Linters ( ESLint и т.п)</li>
+        <img
+          class="next"
+          style="width: 300px"
+          src="pictures/mem5.jpeg"
+          alt="  git commit --no-verify mem"
+        />
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase"><span class="accent-color">Семантика</span></h2>
+
+      <div style="height: 80%; position: relative">
+        <img
+          class="cover"
+          src="pictures/semantics.png"
+          alt="Orange typewriter on a wooden table close-up"
+        />
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase">
+        <span class="accent-color"
+          >Semantic elements = elements with a meaning.</span
+        >
+      </h2>
+      <pre>
+      <code>&lt;h1&gt;,&lt;h2&gt;...&lt;h6&gt;</code>
+      <code>&lt;header&gt;</code>
+      <code>&lt;nav&gt;</code>
+      <code>&lt;section&gt;</code>
+      <code>&lt;aside&gt;</code>
+      <code>&lt;footer&gt;</code>
+      <code>&lt;figure&gt;</code>
+      <code>&lt;main&gt;</code>
+    </pre
+      >
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase"><span class="accent-color">Доколе?</span></h2>
+      <figure>
+        <img
+          style="left: 5%; width: 90%"
+          class="cover shout shrink"
+          src="pictures/semantic.jpg"
+          alt="Orange typewriter on a wooden table close-up"
+        />
+      </figure>
+      <img
+        style="margin-top: 205px"
+        src="pictures/semantic2.jpg"
+        alt="Orange typewriter on a wooden table close-up"
+      />
+    </section>
+
+    <section class="slide">
+      <img
+        src="pictures/1.gif"
+        alt="omg"
+        style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        "
+      />
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase">
+        <span class="accent-color"><code>&lt;Button&gt;</code></span>
+      </h2>
+      <ol>
+        <li>Управление с клавиатуры</li>
+        <li>tabindex</li>
+        <li>autofocus</li>
+        <li>disabled</li>
+        <li>value</li>
+        <li>type</li>
+        <li>...</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <img
+        style="width: 800px"
+        src="pictures/buttton.png"
+        alt="butttons state"
+      />
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase">
+        <span class="accent-color"> outline: none</span>
+      </h2>
+      <button style="width: 200px; height: 100px">button1</button>
+      <button style="width: 200px; height: 100px; outline: none">
+        button2
+      </button>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase">
+        <span class="accent-color">Кнопка или ссылка?</span>
+      </h2>
+      <div class="columns two">
+        <div>
+          <p>Кнопки — для передачи данных, процессов и диалогов</p>
+          <button class="button" style="font-size: 3em">Кнопка</button>
+        </div>
+        <div>
+          <p>Ссылки — для перехода по адресам между страницами</p>
+          <a href="" class="link" style="font-size: 3em">Ссылка</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" id="alt">
+      <h2 class="uppercase">
+        Понять, что <span class="accent-color">на картинках</span>
+      </h2>
+      <ol>
+        <li class="next">Атрибут alt</li>
+      </ol>
+      <div class="next wrapper">
+        <img
+          src="pictures/bottle.jpg"
+          alt="Как отпустить рычаги, чтобы пробка вышла из бутылки"
+        />
+        <p>
+          Ввинчивайте спираль в пробку, два рычага поднимаются вверх. После
+          этого остается только опустить рычаги — и пробка выйдет из бутылки.
+        </p>
+      </div>
+      <style>
+        #alt img {
+          width: 300px;
+          margin-right: 30px;
+        }
+
+        #alt .wrapper {
+          display: flex;
+          align-items: center;
+        }
+      </style>
+    </section>
+
+    <section class="slide">
+      <pre>
+            <code>&lt;!--Плохо--&gt;</code>
+            <code> &lt; img src="clock.png" &gt;  </code>
+            <code> Ввинчивайте спираль в пробку, два рычага поднимаются вверх. </code>
+            <code> После этого остается только опустить рычаги... </code>
+            <code> </code>
+            <code> &lt;!--Хорошо--&gt;</code>
+            <code> &lt; img src="clock.png" alt="Как отпустить рычаги  </code>
+            <code> чтобы пробка вышла из бутылки" &gt;  </code>
+            <code> &lt; p Ввинчивайте спираль в пробку, два рычага... </code>
+          </pre>
+    </section>
+
+    <section class="slide" id="alt">
+      <h2>Изображение обозначает объект, который описывает текст</h2>
+      <div class="next wrapper">
+        <svg viewBox="0 0 485.21 485.21" width="32" height="32" class="icon">
+          <path
+            d="M242.6 0C108.64 0 0 108.63 0 242.6c0 133.98 108.63 242.61 242.6 242.61 133.99 0 242.61-108.63 242.61-242.6C485.21 108.63 376.58 0 242.61 0zm128.12 353.99l-19.43 19.43c-3.46 3.46-13.62 5.62-13.95 5.62a229.25 229.25 0 0 1-164.09-67.08 229.53 229.53 0 0 1-67.11-164.66c0-.02 2.22-9.89 5.69-13.32l19.42-19.43c7.11-7.14 20.76-10.36 30.33-7.16l4.09 1.36c9.53 3.2 19.55 13.74 22.18 23.46l9.77 35.86c2.64 9.74-.92 23.6-8.02 30.71l-12.97 12.97a137.77 137.77 0 0 0 96.87 96.9l12.96-12.97c7.15-7.14 21-10.7 30.72-8.06l35.86 9.8c9.72 2.67 20.26 12.62 23.46 22.16l1.36 4.14c3.17 9.54-.03 23.2-7.14 30.27z"
+          ></path>
+        </svg>
+        <p>+7 (988) 775 57 56</p>
+      </div>
+
+      <pre class="next">
+            <code>&lt;!--Плохо--&gt;</code>
+            <code> &lt; img src="icon-phone.png" &gt;  </code> 
+            <code> </code>
+            <code> &lt;!--Хорошо--&gt;</code>
+            <code> &lt; img src="icon-phone.png" alt="Телефон:"&gt; </code> 
+          </pre>
+      <style>
+        #alt svg {
+          flex-shrink: 0;
+          margin-right: 15px;
+        }
+
+        #alt .wrapper {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+        }
+
+        #alt p {
+          margin: 0;
+        }
+      </style>
+    </section>
+
+    <section class="slide" id="decor">
+      <h2>Декоративные изображения</h2>
+      <div class="next wrapper">
+        <img src="pictures/wave.png" />
+      </div>
+      <ol>
+        <li class="next">CSS background-image</li>
+        <li class="next">пустой alt=""</li>
+        <li class="next">role="presentation"</li>
+        <li class="next">aria-hidden="true":</li>
+      </ol>
+      <style>
+        #decor .wrapper {
+          height: 70px;
+
+          width: 100%;
+        }
+        #decor img {
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+    </section>
+
+    <section class="slide">
+      <pre>
+                <code>&lt;!--Плохо--&gt;</code>
+                <code> &lt; img src="gradient.png"  &gt;  </code>
+                <code>alt="Градиент на фоне текста" </code>
+                <code> </code>
+                <code> &lt;!--Хорошо--&gt;</code>
+                <code> &lt; img src="gradient.png"  </code>
+                <code> aria-hidden="true" alt="" &gt;  </code>
+              </pre>
+    </section>
+
+    <section class="slide">
+      <h2>Графики, диаграммы</h2>
+      <ol>
+        <li class="next">краткое описание в атрибут alt</li>
+        <li class="next">
+          полное описание на отдельную страницу в тег figcaption
+        </li>
+        <li class="next">атрибуты longdesc или aria-describedby</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <div class="wrapper">
+        <img src="pictures/graph.svg" />
+      </div>
+    </section>
+
+    <section class="slide">
+      <pre> 
+          <code> &lt; img src="bar-chart.png"   &gt;  </code>
+          <code>alt="График посещений сайта weblind.ru за 2016 год" </code> 
+          <code> &lt; a href="chart-info.html">Описание изображения &lt;/a &gt;  </code> 
+        </pre>
+    </section>
+
+    <section class="slide">
+      <pre> 
+          <code> &lt; figure role="group"  &gt;  </code>
+          <code> &lt; img src="chart-bar.png"  &gt;  </code>
+          <code> alt="График посещений сайта weblind.ru за 2016 год"  </code>
+          <code> &lt;figcaption&gt;  </code>
+          <code> &lt; a href="chart-info.html">График посещений сайта weblind.ru за 2016 год &lt;/a &gt;  </code> 
+          <code> &lt;figcaption"&gt; </code>
+        </pre>
+    </section>
+
+    <section class="slide">
+      <pre> 
+          <code> &lt; img src="chart-bar.png"  &gt;  </code>
+          <code> alt="График посещений сайта weblind.ru за 2016 год"  </code>
+          <code> longdesc="#chart-longdesc"  </code>
+          <code> &lt;p&gt; id="chart-longdesc">График посещений сайта </code> 
+          <code>  weblind.ru за 2016 год ... &lt;/p&gt;</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+      <h2>Библиотеки</h2>
+      <ul>
+        <li>Google Charts</li>
+        <li>Recharts</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Группы изображений</h2>
+      <p class="note">alt только к первому изображению:</p>
+      <div class="next wrapper">
+        <img src="pictures/icon-star.png" />
+        <img src="pictures/icon-star.png" />
+        <img src="pictures/icon-star.png" />
+        <img src="pictures/icon-star.png" />
+        <img src="pictures/icon-star-empty.png" />
+      </div>
+      <pre> 
+              <code> &lt; img src="images/i-star.png" alt="Рейтинг фильма 4 из 5" &gt;  </code>
+              <code> &lt; img src="images/i-star.png" alt="" &gt;  </code>
+              <code> &lt; img src="images/i-star.png" alt="" &gt;  </code>
+              <code> &lt; img src="images/i-star.png" alt="" &gt;  </code>
+              <code> &lt; img src="images/i-star-empty.png" alt="" &gt;  </code>
+            </pre>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase">
+        Управлять <span class="accent-color">звуком и видео</span>
+      </h2>
+      <ol>
+        <li class="next">Альтернативное описание видео и аудио</li>
+        <li class="next">aria-describedby, longdesc</li>
+        <li class="next">
+          Невидимый для обычного пользователя блок с информацией.
+        </li>
+        <li class="next">
+          кнопки для остановки, воспроизведения и регулировки громкости звуков
+          независимо от громкости системы.
+        </li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase">Формы <span class="accent-color">ввода</span></h2>
+      <ol>
+        <li>Label</li>
+        <li>Title</li>
+        <li>aria-label</li>
+        <li>aria-describedby</li>
+        <li>aria-invalid</li>
+        <li>aria-required</li>
+      </ol>
+
+      <a
+        href="https://a11y-guidelines.orange.com/en/web/components-examples/forms/#"
+        class="accent-color"
+      >
+        a11y-guidelines.orange.com</a
+      >
+    </section>
+
+    <section class="slide">
+      <h2>Поля ввода</h2>
+<pre>
+      <code>&lt;!--Плохо--&gt;</code>
+      <code> &lt;label &gt; Электронная почта &lt;/label &gt;</code>
+      <code> &lt;input type="text"&gt;   </code>
+      <code> </code>
+      <code> &lt;!--Хорошо--&gt;</code>
+      <code> &lt;label for="input-mail"&gt; Электронная почта &lt;/label &gt;</code>
+      <code> &lt;input type="text"  aria-invalid="false"    </code>
+      <code>   aria-required="true" for="input-mail" &gt;   </code>
+            </pre>
+    </section>
+
+    <section class="slide">
+      <h2><span class="accent-color">Если label нужно скрыть</span></h2>
+      <div class="columns two">
+        <pre class="next">
+          <code> &lt;label for="input-mail"&gt; Электронная почта &lt;/label &gt;</code>
+          <code> &lt;input type="text" id="input-mail"&gt;   </code>
+        </pre>
+      </div>
+    </section>
+
+    <section class="slide">
+      <pre> 
+      <code> .visually-hidden {</code>
+      <code>    position: absolute;</code>
+      <code>    width: 1px;</code>
+      <code>    height: 1px;</code>
+      <code>    margin: -1px;</code>
+      <code>    border: 0;</code>
+      <code>    padding: 0;</code>
+      <code>    clip: rect(0 0 0 0);</code>
+      <code>    overflow: hidden;</code>
+      <code> }</code> 
+      </pre>
+    </section>
+
+    <section class="slide">
+      <pre>
+              <code>&lt;!--Плохо--&gt;</code>
+              <code>  display: none</code>
+              <code>  visibility: hidden.   </code>
+            </pre>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase"><span class="accent-color">Группы</span> полей</h2>
+      <ol>
+        <li >role="group"</li>
+        <li >aria-labelledby="user-data"</li>
+        <li >aria-required="true"</li>
+        <li >fieldset </li>
+        <li >legend </li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <pre class="next"> 
+              <code> &lt;div role="group" aria-labelledby="user-data"&gt;</code>
+              <code> </code>
+              <code>  &lt;label  for="input-mail"&gt; Электронная почта &lt;/label &gt;</code>
+              <code>  &lt;input type="text"  for="input-mail" &gt;   </code>
+             <code> </code>
+              <code>   &lt;label  for="input-phone"&gt; Телефон &lt;/label &gt;</code>
+              <code>   &lt;input type="text"  for="input-phone" &gt;   </code>
+            </pre>
+    </section>
+
+    <section class="slide">
+      <h2 class="uppercase"><span class="accent-color">Текст</span></h2>
+      <ol>
+        <li class="next">Текст есть текст</li>
+        <li class="next">изображение текста => alt</li>
+      </ol>
+    </section>
+
+    
+    <section class="slide">
+      <h2 class="shout shrink uppercase accent-color">Пример</h2> 
+    </section>
+
+ 
+
+    <section class="slide" id="picture">
+       
+      <figure>
+        <img
+        style="    margin-top: 18px;
+        height: 81%;"
+          class="cover"
+          src="pictures/mem2.jpg"
+          alt="mem"
+        /> 
+    </section>
+
+   
+
+    <section class="slide">
+      <h2>Вопросы?</h2>
+      <figure>
+        <img
+          class="cover"
+          style="margin-top: 50px"
+          src="pictures/mem3.jpeg"
+          alt="Orange typewriter on a wooden table close-up"
+        />
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>Полезные ссылки</h2>
+      <ol>
+        <li>
+          <a href="https://weblind.ru/">Рекомендации по web-разработке</a>
+        </li>
+        <li>
+          <a
+            href="        https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_overview&tags=buttons"
+            >How to Meet WCAG (Quick Reference)</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">
+            Web Content Accessibility Guidelines</a
+          >
+        </li>
+
+        <li><a href="https://validator.w3.org/">validator.w3</a></li>
+        <li>
+          <a href="http://squizlabs.github.io/HTML_CodeSniffer/"
+            >squizlabs.github.io</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn"
+            >Тестирование скринридером. ChromeVox Classic Extension</a
+          >
+        </li>
+        <li>
+          <a href="http://squizlabs.github.io/HTML_CodeSniffer/"
+            >Вкладка Accessibility Inspection
+          </a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Спасибо :)</h2>
+      
+        <img
+        style="margin-top: 50px"
+          class="cover"
+          src="pictures/mem4.jpeg"
+          alt="Orange typewriter on a wooden table close-up"
+        /> 
+    </section>
+
+    <footer class="badge">
+      <p>Презентация</p>
+      <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+  </body>
+</html>
